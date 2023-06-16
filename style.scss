@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 90px;
+        align-items: center;
+        // background-color: aqua;
+        .leftmenu{
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            padding:  40px;
+            text-transform: uppercase;  
+            ul{
+                
+                li{
+                    list-style-type: none;
+                    display:inline-block;
+                    margin: 0 20px;
+                    
+        a{
+            text-decoration: none;
+            color: rgb(15, 3, 3);
+            
+            &:hover{
+                font-family: "Roboto", sans-serif;
+                color: rgb(173,153,102);
+            }
+        }
+                }
+            }
+        }
+        .logoimage img{
+            
+            height:70px;
+        
+        }
+        .rightmenu{
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            padding: 40px;
+            text-transform: uppercase;
+            ul{
+                li{
+                    list-style-type: none;
+                    display:inline-block;
+                    margin: 0 20px;
+                    a{
+                        text-decoration: none;
+                        color: rgb(12, 11, 11); 
+                        &:hover{
+                        
+                            font-family: "Roboto", sans-serif;
+                            color: rgb(173,153,102);
+                        }
+        } 
+        
+                   
+          
+                }
+            }
+        }
+       
+        
+    }   
+ 
+    
+.LandingPage{
+    margin-top: 100px;
+    position: relative;
+    width:100%;
+    height: 86vh;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        position: absolute;
+    }
+    .landingPageContent{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 90px;
+            transform-style: flat;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 10.8px;
+            font-family: "Playfair Display", serif;
+        
+        }
+        .hr{
+            z-index: 10;
+            color: #fff;
+        }
+        .dinning{
+            font-size: 30px;
+
+        }
+        
+    }
+
+    // background-color: greenyellow;
+
+}
+
